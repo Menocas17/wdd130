@@ -24,7 +24,7 @@ aside {
 }
 
 aside img {
-    width: 300px;
+    width: 250px;
     height: auto;
 
     
@@ -33,6 +33,7 @@ aside img {
 aside h2 {
     position: absolute;
     color: black;
+    left: 30px
 }
 
 p {
