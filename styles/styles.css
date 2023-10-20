@@ -5,7 +5,7 @@
 }
 
 main {
-    max-width: 840px;
+    max-width: 640px;
 }
 
 main img {
@@ -15,6 +15,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 aside {
@@ -25,15 +26,18 @@ aside {
 aside img {
     width: 300px;
     height: auto;
-    position: relative;
+
+    
 }
 
 aside h2 {
     position: absolute;
+    color: black;
 }
 
 p {
     padding: 0;
+    margin: 1rem;
 }
 
 footer {
@@ -56,6 +60,7 @@ nav a {
 
 h1 {
     color: steelblue;
+    padding: 0.5rem;
 }
 
 /* Class Selectors */
