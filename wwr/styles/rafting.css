@@ -19,7 +19,6 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
     max-width: 120rem;
-    margin: 0 2rem;
 }
 
 *, *:before, *:after {
