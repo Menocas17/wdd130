@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #1ba595;
+    --secondary-color: #f7ca39;
+    --accent1-color: #84C0C6;
+    --accent2-color: #ffffff;
+
+    --heading-font: 'Acme', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+
+    --nav-background-color: #1ba595;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #063d42;
+    --nav-hover-background-color: #84C0C6;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    max-width: 120rem;
+    margin: 0 2rem;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+body {
+    font-size: 16px; /* 1rem = 10px */
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    background-color: var(--accent1-color);
+}
+
+.main-nav a {
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
+.logo {
+    width: 15rem;
+
+}
+
+.hero {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%;
+    height: 60%;
+    padding: 1rem;
+}
+
+.hero-content p {
+    color: var(--accent2-color);
+}
+
+.hero-content img {
+    width: 25rem;
+    margin: 2rem 1rem 0 1rem;
+}
+
+.article-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    background: radial-gradient(circle, #040404e1, #05050541);
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: .5rem;
+    color: var(--accent2-color);
+}
+
+.title h1 {
+    margin: 0;
+}
+
+.secondary-title {
+    color: var(--secondary-color);
+}
+
+
+
+
+
+
