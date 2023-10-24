@@ -366,7 +366,7 @@ label {
 }
 .crew {
     background-image: url(../images/crew.jpg);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 38rem;
     margin-top: 2rem;
