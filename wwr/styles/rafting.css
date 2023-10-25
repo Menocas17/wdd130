@@ -7,11 +7,11 @@
     --accent1-color: #000000;
     --accent2-color: #ffffff;
 
+    --button-color: #008b99;
+    --nav-hover-link-color: #dcba94;
+
     --heading-font: 'Acme', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
-
-    --nav-hover-link-color: #dcba94;
-    --nav-hover-background-color: #84C0C6;
 }
 
 /* General CSS declarations*/
@@ -316,7 +316,7 @@ label {
 
 
 .button {
-    background-color: #008b99;
+    background-color: var(--button-color);
     color: white;
     padding: 1rem 3rem;
     margin: 1rem 0  0 0;
@@ -326,6 +326,7 @@ label {
     width: 90%;
     text-align: center;
     border: none;
+    text-decoration: none;
 }
 
 .button-display {
@@ -359,12 +360,14 @@ label {
     height: 3rem;
 }
 
-/* Styling the crew sectio */
+/* Styling the crew section */
 
 
-.crew-title {
-    padding: 2rem;
+.banner-title {
+    padding: 2rem 0;
+    max-width: 100%;
 }
+
 .crew {
     background-image: url(../images/crew.jpg);
     background-repeat: no-repeat;
@@ -383,7 +386,69 @@ label {
  
 }
 
-h3 {
+.article-title {
     background: radial-gradient(circle, #b2b2b294, #0505050c)
 }
 
+/* Styling the Trips page */
+
+.trip {
+    background-image: url(../images/trip-background.jpeg);
+}
+
+.trip-title {
+    height: 7rem;
+    font-size: 4cap;
+    align-items: center;
+}
+
+.first-trip-section {
+    text-align: center;
+}
+
+.trip-introduction {
+    display: grid;
+    place-items: center;
+}
+
+.trip-introduction div {
+    max-width: 50%;
+}
+
+.button-trip {
+    display: inline-block;
+    margin: 2rem 0;
+    max-width: 30%;
+}
+
+.button-gallery {
+    display: block;
+    max-width: 50%;
+}
+
+.trip-tag {
+    display: grid;
+    place-items: center;
+}
+
+.trip-images img {
+    width: 27rem;
+}
+
+.trip-tag h3 {
+    text-transform: uppercase;
+}
+
+.special-ofert-text {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: .5rem;
+    text-transform: capitalize;
+}
+
+.two-elements-gallery {
+    justify-content: center;
+    column-gap: 13rem;
+}
